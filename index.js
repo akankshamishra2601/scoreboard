@@ -14,17 +14,17 @@ let calcChallenge = document.getElementById("sum-el")
 
 function add(){
     let result = num1+num2
-    calcChallenge.textContent= "Sum: " + result
+    calcChallenge.textContent= "SUM: " + result
 }
 function subtract(){
     let result = num1-num2
-    calcChallenge.textContent= "Sum: " + result
+    calcChallenge.textContent= "SUM: " + result
 }
 function divide(){
     let result = num1/num2
-   calcChallenge.textContent="Sum: " + result
+   calcChallenge.textContent="SUM: " + result
 }
 function multiply(){
     let result = num1*num
-   calcChallenge.textContent= "Sum: " + result
+   calcChallenge.textContent= "SUM: " + result
 }
