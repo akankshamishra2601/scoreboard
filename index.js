@@ -25,6 +25,6 @@ function divide(){
    calcChallenge.textContent="SUM: " + result
 }
 function multiply(){
-    let result = num1*num
+    let result = num1*num2
    calcChallenge.textContent= "SUM: " + result
 }
